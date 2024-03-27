@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: red;
+        }
+        .container{
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+           
+        }
+        .box{
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            color: white;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            transition-delay:3s ;
+            
+            
+
+        }
+        .box:hover{
+            background-color: green;
+            cursor: pointer;
+            color: red;
+            height: 250px;
+            width: 250px;
+            transition-delay: 1s;
+            transition-duration: 3s;
+            border-radius: 100%;
+
+            transform: rotate(-360deg);
+            transform: skew(-360deg);
+            transform: scale(3);
+            /* transform: translateX(100px); */
+            transform: translateY(100px);
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Welcome to j34
+        </div>
+    </div>
+</body>
+</html>

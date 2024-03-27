@@ -1,0 +1,39 @@
+tbody,td{
+    border: 10%;
+    border-radius:5px;
+    font-size: 14px;
+    border-color: black;
+    border-width: 3px;
+    border: 10%;
+
+
+
+}
+thead{
+    font-size: 10px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 3px;
+
+}
+tbody{
+    font-size: 20%;
+    background-color:violet;
+    color: black;
+    text-align: center;
+    border: radius 5%;
+    border-color: black;
+    border-width: 3px;
+    justify-content: center;
+   
+}
+table{
+    border-width: 4%;
+    margin: 5%;
+    border-width: 3px;
+    border-color: black;
+   
+}
